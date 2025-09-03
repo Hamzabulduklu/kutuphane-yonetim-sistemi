@@ -1,6 +1,29 @@
 # Kütüphane Yönetim Sistemi (Library Management System)
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Hamzabulduklu/kutuphane-yonetim-sistemi)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green?logo=node.js)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-green?logo=mongodb)](https://www.mongodb.com/)
+[![Zod](https://img.shields.io/badge/Zod-Validation-purple?logo=zod)](https://zod.dev/)
+
 A comprehensive library management system built with TypeScript, Express.js, MongoDB, and modern web technologies.
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Hamzabulduklu/kutuphane-yonetim-sistemi.git
+cd kutuphane-yonetim-sistemi
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Start development server
+npm run dev
+```
 
 ## 🚀 Features
 
