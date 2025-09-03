@@ -1,4 +1,4 @@
-# Kütüphane Yönetim Sistemi (Library Management System)
+# Kütüphane Yönetim Sistemi
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Hamzabulduklu/kutuphane-yonetim-sistemi)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -6,110 +6,110 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-green?logo=mongodb)](https://www.mongodb.com/)
 [![Zod](https://img.shields.io/badge/Zod-Validation-purple?logo=zod)](https://zod.dev/)
 
-A comprehensive library management system built with TypeScript, Express.js, MongoDB, and modern web technologies.
+TypeScript, Express.js, MongoDB ve modern web teknolojileri ile geliştirilmiş kapsamlı kütüphane yönetim sistemi.
 
-## 🚀 Quick Start
+## 🚀 Hızlı Başlangıç
 
 ```bash
-# Clone the repository
+# Repository'yi klonlayın
 git clone https://github.com/Hamzabulduklu/kutuphane-yonetim-sistemi.git
 cd kutuphane-yonetim-sistemi
 
-# Install dependencies
+# Bağımlılıkları yükleyin
 npm install
 
-# Set up environment variables
+# Ortam değişkenlerini ayarlayın
 cp .env.example .env
 
-# Start development server
+# Geliştirme sunucusunu başlatın
 npm run dev
 ```
 
-## 🚀 Features
+## 🚀 Özellikler
 
-### User Management
-- User registration and authentication with **Zod validation**
-- JWT-based authorization
-- User profile management
-- User CRUD operations
-- Soft delete functionality
+### Kullanıcı Yönetimi
+- **Zod doğrulama** ile kullanıcı kaydı ve kimlik doğrulama
+- JWT tabanlı yetkilendirme
+- Kullanıcı profil yönetimi
+- Kullanıcı CRUD işlemleri
+- Soft delete işlevselliği
 
-### Library Management
-- Multiple library support
-- Library CRUD operations with **input validation**
-- Library statistics and analytics
-- Soft delete functionality
+### Kütüphane Yönetimi
+- Çoklu kütüphane desteği
+- **Input doğrulama** ile kütüphane CRUD işlemleri
+- Kütüphane istatistikleri ve analizleri
+- Soft delete işlevselliği
 
-### Book Management
-- Book CRUD operations in libraries
-- Book search and filtering with **validated queries**
-- Book categorization
-- ISBN validation with **regex patterns**
-- Copy management (total vs available)
+### Kitap Yönetimi
+- Kütüphanelerde kitap CRUD işlemleri
+- **Doğrulanmış sorgular** ile kitap arama ve filtreleme
+- Kitap kategorizasyonu
+- **Regex kalıpları** ile ISBN doğrulama
+- Kopya yönetimi (toplam ve mevcut)
 
-### Borrowing System
-- Book borrowing and returning
-- Due date management
-- Fine calculation
-- Borrowing history tracking
-- Maximum book limit per user
+### Ödünç Alma Sistemi
+- Kitap ödünç alma ve iade etme
+- Teslim tarihi yönetimi
+- Ceza hesaplama
+- Ödünç alma geçmişi takibi
+- Kullanıcı başına maksimum kitap sınırı
 
-### Review System
-- Book rating and review system
-- **Validated review inputs** (rating 1-5, required comments)
-- Review CRUD operations
-- Book statistics based on reviews
+### Değerlendirme Sistemi
+- Kitap puanlama ve değerlendirme sistemi
+- **Doğrulanmış değerlendirme girişleri** (1-5 puan, zorunlu yorumlar)
+- Değerlendirme CRUD işlemleri
+- Değerlendirmelere dayalı kitap istatistikleri
 
-### Advanced Features
-- **🔒 Zod Input Validation**: All API endpoints protected with comprehensive validation
-- **ULID** for unique identifiers
-- **MongoDB** with Mongoose ODM
-- **Comprehensive error handling** with standardized response format
-- **Type-safe validation** with detailed error messages
-- Pagination support
-- Search functionality
-- API documentation ready
+### Gelişmiş Özellikler
+- **🔒 Zod Input Doğrulama**: Tüm API uç noktaları kapsamlı doğrulama ile korunmuş
+- **ULID** benzersiz tanımlayıcılar için
+- **MongoDB** ile Mongoose ODM
+- **Kapsamlı hata işleme** standardize edilmiş yanıt formatı ile
+- **Type-safe doğrulama** detaylı hata mesajları ile
+- Sayfalama desteği
+- Arama işlevselliği
+- API dokümantasyonu hazır
 
-## 🛠️ Technology Stack
+## 🛠️ Teknoloji Yığını
 
 - **Backend**: Node.js, Express.js, TypeScript
-- **Database**: MongoDB with Mongoose
-- **Validation**: **Zod** for type-safe input validation
-- **Authentication**: JWT (JSON Web Tokens)
-- **Security**: Helmet, CORS, bcrypt
-- **Testing**: Mocha, Sinon.js, Chai
-- **Code Quality**: ESLint, Prettier
-- **ID Generation**: ULID
+- **Veritabanı**: MongoDB ile Mongoose
+- **Doğrulama**: Type-safe input doğrulama için **Zod**
+- **Kimlik Doğrulama**: JWT (JSON Web Tokens)
+- **Güvenlik**: Helmet, CORS, bcrypt
+- **Test**: Mocha, Sinon.js, Chai
+- **Kod Kalitesi**: ESLint, Prettier
+- **ID Üretimi**: ULID
 
-## 📋 Prerequisites
+## 📋 Ön Koşullar
 
-Before running this application, make sure you have the following installed:
+Bu uygulamayı çalıştırmadan önce aşağıdakilerin yüklü olduğundan emin olun:
 
-- Node.js (v16 or higher)
-- MongoDB (v5.0 or higher)
-- npm or yarn package manager
+- Node.js (v16 veya üzeri)
+- MongoDB (v5.0 veya üzeri)
+- npm veya yarn paket yöneticisi
 
-## 🔧 Installation
+## 🔧 Kurulum
 
-1. **Clone the repository**
+1. **Repository'yi klonlayın**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Hamzabulduklu/kutuphane-yonetim-sistemi.git
    cd kutuphane-yonetim-sistemi
    ```
 
-2. **Install dependencies**
+2. **Bağımlılıkları yükleyin**
    ```bash
    npm install
    ```
 
-3. **Environment Configuration**
+3. **Ortam Yapılandırması**
    
-   Copy the `.env` file and configure your environment variables:
+   `.env` dosyasını kopyalayın ve ortam değişkenlerinizi yapılandırın:
    ```bash
-   cp .env .env.local
+   cp .env.example .env
    ```
 
-   Update the following variables in `.env`:
+   `.env` dosyasında aşağıdaki değişkenleri güncelleyin:
    ```
    NODE_ENV=development
    PORT=3000
@@ -119,9 +119,9 @@ Before running this application, make sure you have the following installed:
    MAX_BOOKS_PER_USER=5
    ```
 
-4. **Start MongoDB**
+4. **MongoDB'yi Başlatın**
    
-   Make sure MongoDB is running on your system:
+   MongoDB'nin sisteminizde çalıştığından emin olun:
    ```bash
    # Windows
    net start MongoDB
@@ -130,85 +130,85 @@ Before running this application, make sure you have the following installed:
    sudo systemctl start mongod
    ```
 
-## 🚀 Usage
+## 🚀 Kullanım
 
-### Development Mode
+### Geliştirme Modu
 ```bash
 npm run dev
 ```
-This starts the server with hot-reload using ts-node.
+Bu komut ts-node kullanarak hot-reload ile sunucuyu başlatır.
 
-### Production Build
+### Üretim Derlemesi
 ```bash
 npm run build
 npm start
 ```
 
-### Running Tests
+### Testleri Çalıştırma
 ```bash
 npm test
 ```
 
-### Code Formatting and Linting
+### Kod Formatlama ve Linting
 ```bash
 npm run lint
 npm run format
 ```
 
-## 📚 API Endpoints
+## 📚 API Uç Noktaları
 
-### Authentication
-- `POST /api/users/register` - Register a new user
-- `POST /api/users/login` - Login user
+### Kimlik Doğrulama
+- `POST /api/users/register` - Yeni kullanıcı kaydı
+- `POST /api/users/login` - Kullanıcı girişi
 
-### User Management
-- `GET /api/users/profile` - Get current user profile
-- `GET /api/users` - Get all users (paginated)
-- `GET /api/users/:id` - Get user by ID
-- `PUT /api/users/:id` - Update user
-- `DELETE /api/users/:id` - Delete user (soft delete)
+### Kullanıcı Yönetimi
+- `GET /api/users/profile` - Mevcut kullanıcı profilini getir
+- `GET /api/users` - Tüm kullanıcıları getir (sayfalanmış)
+- `GET /api/users/:id` - ID'ye göre kullanıcı getir
+- `PUT /api/users/:id` - Kullanıcıyı güncelle
+- `DELETE /api/users/:id` - Kullanıcıyı sil (soft delete)
 
-### Library Management
-- `POST /api/libraries` - Create a new library
-- `GET /api/libraries` - Get all libraries (paginated)
-- `GET /api/libraries/:id` - Get library by ID
-- `PUT /api/libraries/:id` - Update library
-- `DELETE /api/libraries/:id` - Delete library (soft delete)
-- `GET /api/libraries/:id/stats` - Get library statistics
+### Kütüphane Yönetimi
+- `POST /api/libraries` - Yeni kütüphane oluştur
+- `GET /api/libraries` - Tüm kütüphaneleri getir (sayfalanmış)
+- `GET /api/libraries/:id` - ID'ye göre kütüphane getir
+- `PUT /api/libraries/:id` - Kütüphaneyi güncelle
+- `DELETE /api/libraries/:id` - Kütüphaneyi sil (soft delete)
+- `GET /api/libraries/:id/stats` - Kütüphane istatistiklerini getir
 
-### Book Management
-- `POST /api/books` - Add a new book to library
-- `GET /api/books` - Get all books (paginated, filterable)
-- `GET /api/books/search` - Search books
-- `GET /api/books/:id` - Get book by ID
-- `PUT /api/books/:id` - Update book
-- `DELETE /api/books/:id` - Delete book (soft delete)
-- `POST /api/books/:id/borrow` - Borrow a book
-- `POST /api/books/:id/return` - Return a book
+### Kitap Yönetimi
+- `POST /api/books` - Kütüphaneye yeni kitap ekle
+- `GET /api/books` - Tüm kitapları getir (sayfalanmış, filtrelenebilir)
+- `GET /api/books/search` - Kitap arama
+- `GET /api/books/:id` - ID'ye göre kitap getir
+- `PUT /api/books/:id` - Kitabı güncelle
+- `DELETE /api/books/:id` - Kitabı sil (soft delete)
+- `POST /api/books/borrow` - Kitap ödünç al
+- `PUT /api/books/:id/return` - Kitabı iade et
 
-### Health Check
-- `GET /health` - API health status
-- `GET /` - API information
+### Sağlık Kontrolü
+- `GET /health` - API sağlık durumu
+- `GET /` - API bilgileri
 
-## 🔐 Authentication
+## 🔐 Kimlik Doğrulama
 
-The API uses JWT (JSON Web Tokens) for authentication. After logging in, include the token in the Authorization header:
+API, kimlik doğrulama için JWT (JSON Web Tokens) kullanır. Giriş yaptıktan sonra, token'ı Authorization başlığına dahil edin:
 
 ```
 Authorization: Bearer <your-jwt-token>
 ```
 
-## ✅ Input Validation
+## ✅ Girdi Doğrulama
 
-This system uses **Zod** for comprehensive input validation on all API endpoints.
+Bu sistem, tüm API uç noktalarında kapsamlı girdi doğrulama için **Zod** kullanır.
 
-### Validation Features
-- **Type-safe validation** with TypeScript integration
-- **Detailed error messages** in Turkish
-- **Field-level validation** with specific rules
-- **Consistent error format** across all endpoints
+### Doğrulama Özellikleri
+- **TypeScript entegrasyonu** ile tip güvenli doğrulama
+- **Türkçe detaylı hata mesajları**
+- **Alan düzeyinde doğrulama** özel kurallarla
+- **Tutarlı hata formatı** tüm uç noktalarda
 
-### Example Validation Error Response
+### Örnek Doğrulama Hata Yanıtı
 ```json
 {
   "success": false,
@@ -228,158 +228,158 @@ This system uses **Zod** for comprehensive input validation on all API endpoints
 }
 ```
 
-### Validation Rules
+### Doğrulama Kuralları
 
-#### User Registration
-- **username**: 3-30 characters, alphanumeric + underscore only
-- **email**: Valid email format
-- **password**: 6-100 characters
-- **firstName/lastName**: 2-50 characters
-- **maxBooks**: 1-50 integer (optional)
+#### Kullanıcı Kaydı
+- **username**: 3-30 karakter, sadece alfanümerik + alt çizgi
+- **email**: Geçerli email formatı
+- **password**: 6-100 karakter
+- **firstName/lastName**: 2-50 karakter
+- **maxBooks**: 1-50 tamsayı (opsiyonel)
 
-#### Book Creation
-- **title**: 1-200 characters
-- **author**: 1-100 characters
-- **isbn**: Valid ISBN format (optional)
-- **publisher**: 1-100 characters
-- **publishedYear**: 1000 to current year
-- **totalCopies**: 1-1000 integer
+#### Kitap Oluşturma
+- **title**: 1-200 karakter
+- **author**: 1-100 karakter
+- **isbn**: Geçerli ISBN formatı (opsiyonel)
+- **publisher**: 1-100 karakter
+- **publishedYear**: 1000 ile mevcut yıl arası
+- **totalCopies**: 1-1000 tamsayı
 
-#### Review Creation
-- **rating**: 1-5 integer
-- **comment**: 1-1000 characters
-- **bookId**: Required string
+#### İnceleme Oluşturma
+- **rating**: 1-5 tamsayı
+- **comment**: 1-1000 karakter
+- **bookId**: Gerekli string
 
-### Testing Validation
+### Doğrulama Testleri
 ```bash
-# Run validation tests
+# Doğrulama testlerini çalıştır
 npx ts-node src/tests/validation.test.ts
 ```
 
-## 📖 Database Schema
+## 📖 Veritabanı Şeması
 
-### User Model
+### Kullanıcı Modeli
 - `_id`: ULID
-- `username`: Unique username
-- `email`: Unique email address
-- `password`: Hashed password
-- `firstName`: User's first name
-- `lastName`: User's last name
-- `maxBooks`: Maximum books user can borrow
-- `borrowedBooks`: Array of borrowed book IDs
-- `isActive`: Soft delete flag
+- `username`: Benzersiz kullanıcı adı
+- `email`: Benzersiz email adresi
+- `password`: Hash'lenmiş şifre
+- `firstName`: Kullanıcının adı
+- `lastName`: Kullanıcının soyadı
+- `maxBooks`: Kullanıcının ödünç alabileceği maksimum kitap sayısı
+- `borrowedBooks`: Ödünç alınan kitap ID'leri dizisi
+- `isActive`: Soft delete bayrağı
 
-### Library Model
+### Kütüphane Modeli
 - `_id`: ULID
-- `name`: Library name
-- `description`: Optional description
-- `address`: Library address
-- `phone`: Contact phone
-- `email`: Contact email
-- `books`: Array of book IDs
-- `isActive`: Soft delete flag
+- `name`: Kütüphane adı
+- `description`: Opsiyonel açıklama
+- `address`: Kütüphane adresi
+- `phone`: İletişim telefonu
+- `email`: İletişim email'i
+- `books`: Kitap ID'leri dizisi
+- `isActive`: Soft delete bayrağı
 
-### Book Model
+### Kitap Modeli
 - `_id`: ULID
-- `title`: Book title
-- `author`: Book author
-- `isbn`: ISBN (optional, unique)
-- `publisher`: Publisher name
-- `publishedYear`: Publication year
-- `category`: Book category
-- `description`: Book description
-- `totalCopies`: Total number of copies
-- `availableCopies`: Available copies
-- `libraryId`: Reference to library
-- `borrowedBy`: Array of user IDs who borrowed
-- `isActive`: Soft delete flag
+- `title`: Kitap başlığı
+- `author`: Kitap yazarı
+- `isbn`: ISBN (opsiyonel, benzersiz)
+- `publisher`: Yayınevi adı
+- `publishedYear`: Yayın yılı
+- `category`: Kitap kategorisi
+- `description`: Kitap açıklaması
+- `totalCopies`: Toplam kopya sayısı
+- `availableCopies`: Mevcut kopya sayısı
+- `libraryId`: Kütüphane referansı
+- `borrowedBy`: Ödünç alan kullanıcı ID'leri dizisi
+- `isActive`: Soft delete bayrağı
 
-### BorrowRecord Model
+### Ödünç Alma Kaydı Modeli
 - `_id`: ULID
-- `userId`: Reference to user
-- `bookId`: Reference to book
-- `libraryId`: Reference to library
-- `borrowDate`: Date when borrowed
-- `dueDate`: Due date for return
-- `returnDate`: Actual return date
-- `isReturned`: Return status
-- `fine`: Fine amount (if any)
-- `notes`: Additional notes
+- `userId`: Kullanıcı referansı
+- `bookId`: Kitap referansı
+- `libraryId`: Kütüphane referansı
+- `borrowDate`: Ödünç alma tarihi
+- `dueDate`: Teslim tarihi
+- `returnDate`: Gerçek teslim tarihi
+- `isReturned`: İade durumu
+- `fine`: Ceza miktarı (varsa)
+- `notes`: Ek notlar
 
-## 🧪 Testing
+## 🧪 Test
 
-The project uses Mocha with Sinon.js for testing. Test files are located in the `src/tests` directory.
+Proje, test için Sinon.js ile Mocha kullanır. Test dosyaları `src/tests` dizininde bulunur.
 
 ```bash
-# Run all tests
+# Tüm testleri çalıştır
 npm test
 
-# Run specific test file
+# Belirli test dosyasını çalıştır
 npx mocha --require ts-node/register src/tests/UserController.test.ts
 ```
 
-## 🔧 Development
+## 🔧 Geliştirme
 
-### Project Structure
+### Proje Yapısı
 ```
 src/
-├── config/         # Configuration files
-├── controllers/    # Route controllers
-├── middleware/     # Custom middleware
-├── models/         # MongoDB models
-├── routes/         # API routes
-├── tests/          # Test files
-└── index.ts        # Application entry point
+├── config/         # Yapılandırma dosyaları
+├── controllers/    # Route controller'ları
+├── middleware/     # Özel middleware'ler
+├── models/         # MongoDB modelleri
+├── routes/         # API route'ları
+├── tests/          # Test dosyaları
+└── index.ts        # Uygulama giriş noktası
 ```
 
-### Code Quality
-- ESLint for code linting
-- Prettier for code formatting
-- TypeScript for type safety
-- Strict TypeScript configuration
+### Kod Kalitesi
+- ESLint kod linting için
+- Prettier kod biçimlendirme için
+- TypeScript tip güvenliği için
+- Sıkı TypeScript yapılandırması
 
-## 🐛 Troubleshooting
+## 🐛 Sorun Giderme
 
-### Common Issues
+### Yaygın Sorunlar
 
-1. **MongoDB Connection Error**
-   - Ensure MongoDB is running
-   - Check connection string in `.env`
-   - Verify network connectivity
+1. **MongoDB Bağlantı Hatası**
+   - MongoDB'nin çalıştığından emin olun
+   - `.env` dosyasındaki bağlantı dizesini kontrol edin
+   - Ağ bağlantısını doğrulayın
 
-2. **JWT Token Issues**
-   - Check JWT_SECRET in environment variables
-   - Verify token format in Authorization header
-   - Check token expiration
+2. **JWT Token Sorunları**
+   - Ortam değişkenlerindeki JWT_SECRET'ı kontrol edin
+   - Authorization header'ındaki token formatını doğrulayın
+   - Token sona erme süresini kontrol edin
 
-3. **Port Already in Use**
-   - Change PORT in `.env` file
-   - Kill process using the port: `lsof -ti:3000 | xargs kill -9`
+3. **Port Zaten Kullanımda**
+   - `.env` dosyasındaki PORT'u değiştirin
+   - Portu kullanan işlemi sonlandırın: `lsof -ti:3000 | xargs kill -9`
 
-## 📞 Support
+## 📞 Destek
 
-For support and questions, please create an issue in the repository or contact the development team.
+Destek ve sorular için lütfen repository'de bir issue oluşturun veya geliştirme ekibiyle iletişime geçin.
 
-## 📄 License
+## 📄 Lisans
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosyasına bakın.
 
-## 🤝 Contributing
+## 🤝 Katkıda Bulunma
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+1. Repository'yi fork edin
+2. Özellik dalı oluşturun
+3. Değişikliklerinizi commit edin
+4. Dalı push edin
+5. Pull Request oluşturun
 
 ## 🚀 Deployment
 
-### Production Checklist
-- [ ] Set `NODE_ENV=production`
-- [ ] Configure production MongoDB URI
-- [ ] Set strong JWT secret
-- [ ] Configure CORS for production domains
-- [ ] Enable MongoDB authentication
-- [ ] Set up monitoring and logging
-- [ ] Configure reverse proxy (nginx)
-- [ ] Set up SSL certificates
+### Üretim Kontrol Listesi
+- [ ] `NODE_ENV=production` ayarlayın
+- [ ] Üretim MongoDB URI'sını yapılandırın
+- [ ] Güçlü JWT secret'ı ayarlayın
+- [ ] Üretim domainleri için CORS yapılandırın
+- [ ] MongoDB kimlik doğrulamasını etkinleştirin
+- [ ] İzleme ve loglama ayarlayın
+- [ ] Reverse proxy yapılandırın (nginx)
+- [ ] SSL sertifikaları ayarlayın
